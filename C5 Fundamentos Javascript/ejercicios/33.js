@@ -6,6 +6,15 @@ function esNumeroPrimo(numero) {
   // IMPORTANTE: Recuerda que un número primo es aquel que
   // solo es divisible por sí mismo y por 1.
   // Tu código:
+
+  if (numero === 2) return true
+
+  for (let i = 2; i < Math.abs(numero); i++) {
+    var a = !!(numero % i);
+    if (a === false) return a;
+  }
+
+  return true
 }
 
 module.exports = esNumeroPrimo;
