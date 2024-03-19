@@ -5,6 +5,9 @@ function continueStatement(num) {
   // se continúa con la siguiente iteración.
   // PISTA: Utiliza el statement 'continue'.
   // Tu código:
+
+  
+
 }
 
 module.exports = continueStatement;
