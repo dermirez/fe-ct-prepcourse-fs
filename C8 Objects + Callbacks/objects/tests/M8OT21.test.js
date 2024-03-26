@@ -26,3 +26,4 @@ test('Debe devolver el precio con descuento del producto', function () {
      agregarMetodoCalculoDescuento(storeItem2).calcularPrecioDescuento()
   ).toBe(2.5);
 });
+
